@@ -13,6 +13,44 @@
 
 <body>
 
+    <!-- Header Start -->
+    <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
+        <div class="container">
+            <div class="flex items-center justify-between relative">
+                <div class="px-4">
+                    <a href="#home" class="font-bold text-lg text-cyan-500 block py-6">Syafiqrzf</a>
+                </div>
+                <div class="flex items-center px-4">
+                    <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
+                        <span class="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
+                        <span class="hamburger-line transition duration-300 ease-in-out"></span>
+                        <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"></span>
+                    </button>
+
+                    <nav id="nav-menu"
+                        class="hidden absolute py-5 bg-dark text-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
+                        <ul class="block lg:flex">
+                            <li class="group">
+                                <a href="#home" class="py-2 mx-8  flex group-hover:text-cyan-500">Beranda</a>
+                            </li>
+                            <li class="group">
+                                <a href="#about" class="py-2 mx-8  flex group-hover:text-cyan-500">Tentang saya</a>
+                            </li>
+                            <li class="group">
+                                <a href="#portfolio" class="py-2 mx-8  flex group-hover:text-cyan-500">Portfolio</a>
+                            </li>
+                            <li class="group">
+                                <a href="#contact" class="py-2 mx-8  flex group-hover:text-cyan-500">Contact</a>
+                            </li>
+
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header End -->
+
     <!-- Hero Section Start -->
     <section id="home" class="pt-36">
         <div class="container">
@@ -105,67 +143,70 @@
                 <p class="font-medium text-base text-slate-300 max-w-xl">
                     Dibawah adalah project latihan yang sudah saya selesaikan :)
                 </p>
-                <div class="flex flex-wrap mt-2 text-white">
-                    <div class="border-2 border-solid border-slate-700">
-                        <img src="public/img/projects/BookShelf.png" alt="">
-                        <div class="container">
-                            <h3 class="text-center pt-5 pb-2 font-semibold">BookShelf submission</h3>
-                            <hr>
-                            <p class="mt-2">Ini adalah project yang dibuat untuk memenuhi tugas submission dari dicoding
-                            </p>
-                            <div class="flex mt-2 mb-2 text-white">
-                                <p class="border-2 border-solid border-sky-400 rounded-lg p-2 mr-2">HTML</p>
-                                <p class="border-2 border-solid border-sky-400 rounded-lg p-2 mr-2">CSS</p>
-                                <p class="border-2 border-solid border-sky-400 rounded-lg p-2 mr-2">javascript</p>
+                <div class="lg:flex lg:w-1/2">
+                    <div class="flex mt-2 lg:mr-4 text-white">
+                        <div class="border-2 border-solid border-slate-700">
+                            <img src="public/img/projects/BookShelf.png" alt="">
+                            <div class="container">
+                                <h3 class="text-center pt-5 pb-2 font-semibold">BookShelf submission</h3>
+                                <hr>
+                                <p class="mt-2">Ini adalah project yang dibuat untuk memenuhi tugas submission dari
+                                    dicoding
+                                </p>
+                                <div class="flex mt-2 mb-2 text-white">
+                                    <p class="border-2 border-solid border-sky-400 rounded-lg p-2 mr-2">HTML</p>
+                                    <p class="border-2 border-solid border-sky-400 rounded-lg p-2 mr-2">CSS</p>
+                                    <p class="border-2 border-solid border-sky-400 rounded-lg p-2 mr-2">javascript</p>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="flex flex-wrap mt-2 text-white">
-                    <div class="border-2 border-solid border-slate-700">
-                        <img src="public/img/projects/Pemuda Coding Blog.png" alt="">
-                        <div class="container">
-                            <h3 class="text-center pt-5 pb-2 font-semibold">Pemuda Coding Blog</h3>
-                            <hr>
-                            <p class="mt-2">Ini adalah project yang dibuat untuk landing page pemuda coding
-                            </p>
-                            <div class="flex mt-2 mb-2 text-white">
-                                <p class="border-2 border-solid border-sky-400 rounded-lg p-2 mr-2">HTML</p>
-                                <p class="border-2 border-solid border-sky-400 rounded-lg p-2 mr-2">SCSS</p>
-                                <p class="border-2 border-solid border-sky-400 rounded-lg p-2 mr-2">javascript</p>
+                    <div class="flex mt-2 lg:mr-4 text-white">
+                        <div class="border-2 border-solid border-slate-700">
+                            <img src="public/img/projects/Pemuda Coding Blog.png" alt="">
+                            <div class="container">
+                                <h3 class="text-center pt-5 pb-2 font-semibold">Pemuda Coding Blog</h3>
+                                <hr>
+                                <p class="mt-2">Ini adalah project yang dibuat untuk landing page pemuda coding
+                                </p>
+                                <div class="flex mt-2 mb-2 text-white">
+                                    <p class="border-2 border-solid border-sky-400 rounded-lg p-2 mr-2">HTML</p>
+                                    <p class="border-2 border-solid border-sky-400 rounded-lg p-2 mr-2">SCSS</p>
+                                    <p class="border-2 border-solid border-sky-400 rounded-lg p-2 mr-2">javascript</p>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="flex flex-wrap mt-2 text-white">
-                    <div class="border-2 border-solid border-slate-700">
-                        <img src="public/img/projects/Tekaje Fest.png" alt="">
-                        <div class="container">
-                            <h3 class="text-center pt-5 pb-2 font-semibold">Tekaje Fest</h3>
-                            <hr>
-                            <p class="mt-2">Ini adalah project yang dibuat untuk presentasi pada event tekaje fest
-                            </p>
-                            <div class="flex mt-2 mb-2 text-white">
-                                <p class="border-2 border-solid border-sky-400 rounded-lg p-2 mr-2">HTML</p>
-                                <p class="border-2 border-solid border-sky-400 rounded-lg p-2 mr-2">SCSS</p>
-                                <p class="border-2 border-solid border-sky-400 rounded-lg p-2 mr-2">javascript</p>
+                    <div class="flex mt-2 lg:mr-4 text-white">
+                        <div class="border-2 border-solid border-slate-700">
+                            <img src="public/img/projects/Tekaje Fest.png" alt="">
+                            <div class="container">
+                                <h3 class="text-center pt-5 pb-2 font-semibold">Tekaje Fest</h3>
+                                <hr>
+                                <p class="mt-2">Ini adalah project yang dibuat untuk presentasi pada event tekaje fest
+                                </p>
+                                <div class="flex mt-2 mb-2 text-white">
+                                    <p class="border-2 border-solid border-sky-400 rounded-lg p-2 mr-2">HTML</p>
+                                    <p class="border-2 border-solid border-sky-400 rounded-lg p-2 mr-2">SCSS</p>
+                                    <p class="border-2 border-solid border-sky-400 rounded-lg p-2 mr-2">javascript</p>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="flex flex-wrap mt-2 text-white">
-                    <div class="border-2 border-solid border-slate-700">
-                        <img src="public/img/projects/UIC Landing Page.png" alt="">
-                        <div class="container">
-                            <h3 class="text-center pt-5 pb-2 font-semibold">United IT CLub</h3>
-                            <hr>
-                            <p class="mt-2">Ini adalah project yang dibuat untuk lomba dan landing page untuk eskul
-                                jurusan
-                            </p>
-                            <div class="flex mt-2 mb-2 text-white">
-                                <p class="border-2 border-solid border-sky-400 rounded-lg p-2 mr-2">HTML</p>
-                                <p class="border-2 border-solid border-sky-400 rounded-lg p-2 mr-2">CSS</p>
-                                <p class="border-2 border-solid border-sky-400 rounded-lg p-2 mr-2">javascript</p>
+                    <div class="flex mt-2 lg:mr-4 text-white">
+                        <div class="border-2 border-solid border-slate-700">
+                            <img src="public/img/projects/UIC Landing Page.png" alt="">
+                            <div class="container">
+                                <h3 class="text-center pt-5 pb-2 font-semibold">United IT CLub</h3>
+                                <hr>
+                                <p class="mt-2">Ini adalah project yang dibuat untuk lomba dan landing page untuk eskul
+                                    jurusan
+                                </p>
+                                <div class="flex mt-2 mb-2 text-white">
+                                    <p class="border-2 border-solid border-sky-400 rounded-lg p-2 mr-2">HTML</p>
+                                    <p class="border-2 border-solid border-sky-400 rounded-lg p-2 mr-2">CSS</p>
+                                    <p class="border-2 border-solid border-sky-400 rounded-lg p-2 mr-2">javascript</p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -176,58 +217,98 @@
     <!-- Project Section End -->
 
 
-
     <!-- Contact Me start -->
-    <div id="contact" class="pt-36 pb-32">
+    <sectio id="Contact" class="pt-36 pb-32">
         <div class="container">
-            <div class="w-full px-4 mb-10">
-                <h4 class="font-bold uppercase text-primary text-lg mb-3">Contact</h4>
-                <h2 class="font-bold text-white text-3xl mb-5 max-w-screen-md">Personal Contact</h2>
-                <p class="text-white">Saya senang ketika kita bisa berteman. Berikut adalah link social media saya</p>
-                <div class="flex mt-5">
-                    <button class="mr-3">
-                        <a href="https://m.facebook.com/syafiqrzf" target="_blank">
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/facebook/facebook-original.svg"
-                                width="45" />
-                        </a>
-                    </button>
-                    <button class="mr-3">
-                        <a href="https://www.twitter.com/syafiqrzf/" target="_blank">
+            <div class="w-full px-4">
+                <div class="max-w-xl mx-auto text-center mb-16">
+                    <h4 class="font-semibold text-lg text-sky-500 mb-2">Contact Me</h4>
+                    <h2 class="font-bold text-slate-500 text-3xl mb-4">Hubungi Kami</h2>
+                    <p class="font-medium text-md text-slate-500">Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Beatae, molestiae!</p>
 
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/twitter/twitter-original.svg"
-                                width="45" />
-
-                        </a>
-                    </button>
-                    <button class="mr-3">
-                        <a href="https://www.linkedin.com/in/rizky-fauzi-b07a75219/" target="_blank">
-
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
-                                width="45" />
-
-                        </a>
-                    </button>
-                    <button class="mr-3">
-                        <a href="https://github.com/Syafiq1331" target="_blank">
-
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
-                                width="45" />
-
-                        </a>
-                    </button>
+                    <form>
+                        <div class="w-full lg:w-2/3 lg:mx-auto">
+                            <div class="w-full px-4 mb-8">
+                                <label for="name" class="text-base text-left font-bold text-sky-500">Nama</label>
+                                <input type="text" id="name"
+                                    class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-sky-500 focus:ring-1 focus:border-sky-500">
+                            </div>
+                            <div class="w-full px-4 mb-8">
+                                <label for="email" class="text-base font-bold text-sky-500">Email</label>
+                                <input type="email" id="email"
+                                    class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-sky-500 focus:ring-1 focus:border-sky-500">
+                            </div>
+                            <div class="w-full px-4 mb-8">
+                                <label for="message" class="text-base font-bold text-sky-500">Pesan</label>
+                                <textarea type="text" id="message"
+                                    class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-sky-500 focus:ring-1 focus:border-sky-500 h-32"></textarea>
+                            </div>
+                            <div class="w-full px-4">
+                                <button
+                                    class="text-base font-semibold text-white bg-sky-500 py-3 px-8 rounded-full w-full hover:opacity-80 hover:shadow-lg transition duration-500">Kirim</button>
+                            </div>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
-    </div>
+    </sectio>
     <!-- Contact Me End -->
 
-    <div class="pt-36">
-        <footer class="p-2 bg-slate-600">
-            <p class="text-center text-white">Dibuat dengan &hearts; oleh <span class="font-semibold">syafiqrzf</span>,
-                menggunakan <span class="text-sky-500 font-semibold">Tailwind
-                    CSS.</span> </p>
-        </footer>
-    </div>
+    <!-- footer start -->
+    <footer class="bg-dark pt-24 pb-12">
+        <div class="container">
+            <div class="w-full border-t border-slate-700">
+                <div class="flex items-center justify-center mb-5">
+                    <div class="flex mt-5 items-center">
+                        <button class="mr-3 p-2">
+                            <a href="https://m.facebook.com/syafiqrzf" target="_blank">
+
+                                <i class="devicon-facebook-plain text-white hover:text-sky-500"></i>
+
+                            </a>
+                        </button>
+                        <button class="mr-3">
+                            <a href="https://www.twitter.com/syafiqrzf/" target="_blank">
+
+
+                                <i class="devicon-twitter-original text-white hover:text-sky-500"></i>
+
+
+                            </a>
+                        </button>
+                        <button class="mr-3">
+                            <a href="https://www.linkedin.com/in/rizky-fauzi-b07a75219/" target="_blank">
+
+
+                                <i class="devicon-linkedin-plain text-white hover:text-sky-500"></i>
+
+
+                            </a>
+                        </button>
+                        <button class="mr-3">
+                            <a href="https://github.com/Syafiq1331" target="_blank">
+
+
+                                <i class="devicon-github-original text-white hover:text-sky-500"></i>
+
+
+                            </a>
+                        </button>
+                    </div>
+                </div>
+                <p class="font-medium text-sm text-slate-500 text-center">Dibuat dengan &hearts; oleh <a
+                        href="https://instagram.com/syafiqrzf" target="_blank"
+                        class="font-bold text-cyan-500">Syafiqrzf</a>,
+                    menggunakn <a href="https://tailwincss.com" target="_blank"
+                        class="font-bold text-sky-500">Tailwindcss</a></p>
+            </div>
+        </div>
+    </footer>
+    <!-- footer end -->
+
+    <script src="public/script.js"></script>
 </body>
 
 </html>
