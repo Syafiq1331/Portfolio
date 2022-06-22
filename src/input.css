@@ -9,7 +9,7 @@
 }
 
 .hamburger-line{
-@apply w-[30px] h-[2px] my-2 block bg-dark;
+@apply w-[30px] h-[2px] my-2 block bg-white;
 }
 
 .hamburger-active > span:nth-child(1){
